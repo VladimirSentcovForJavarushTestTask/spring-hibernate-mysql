@@ -24,6 +24,9 @@ public class User implements Serializable, Comparable<User> {
     @Column(name = "NAME", length = 25)
     private String name;
 
+    @Column(name = "AGE")
+    private Integer age = 0;
+
     @Column(name = "IS_ADMIN")
     private Boolean isAdmin = false;
 
@@ -31,8 +34,6 @@ public class User implements Serializable, Comparable<User> {
     @Temporal(TemporalType.TIMESTAMP)
     private Date date = new Date();
 
-    @Column(name = "AGE")
-    private Integer age = 0;
 
     public Integer getId() {
         return id;
