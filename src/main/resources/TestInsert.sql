@@ -12,3 +12,15 @@ VALUES ('4', 'Olga', '30', FALSE, '2016-02-15 11:27:58');
 
 INSERT INTO `test`.`user` (`ID`, `NAME`, `AGE`, `IS_ADMIN`, `CREATED_DATE`)
 VALUES ('5', 'Natalia', '30', FALSE, '2016-02-15 11:32:58');
+
+INSERT INTO `test`.`user` (`ID`, `NAME`, `AGE`, `IS_ADMIN`, `CREATED_DATE`)
+VALUES ('6', 'Natalia', '30', FALSE, '2016-02-15 11:32:58');
+
+INSERT INTO `test`.`user` (`ID`, `NAME`, `AGE`, `IS_ADMIN`, `CREATED_DATE`)
+VALUES ('7', 'Svetlana', '30', FALSE, '2016-02-15 11:32:58');
+
+INSERT INTO `test`.`user` (`ID`, `NAME`, `AGE`, `IS_ADMIN`, `CREATED_DATE`)
+VALUES ('8', 'Nastiy', '30', FALSE, '2016-02-15 11:32:58');
+
+INSERT INTO `test`.`user` (`ID`, `NAME`, `AGE`, `IS_ADMIN`, `CREATED_DATE`)
+VALUES ('9', 'Alex', '30', FALSE, '2016-02-15 11:32:58');
